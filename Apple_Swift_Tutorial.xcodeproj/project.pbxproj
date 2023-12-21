@@ -14,6 +14,8 @@
 		F44B5E342B311C5300B76E48 /* Apple_Swift_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44B5E332B311C5300B76E48 /* Apple_Swift_TutorialTests.swift */; };
 		F44B5E3E2B311C5300B76E48 /* Apple_Swift_TutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44B5E3D2B311C5300B76E48 /* Apple_Swift_TutorialUITests.swift */; };
 		F44B5E402B311C5300B76E48 /* Apple_Swift_TutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44B5E3F2B311C5300B76E48 /* Apple_Swift_TutorialUITestsLaunchTests.swift */; };
+		F47E75432B32D46400B35EFC /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47E75422B32D46400B35EFC /* CircleImage.swift */; };
+		F47E75452B33B0F400B35EFC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47E75442B33B0F400B35EFC /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		F44B5E392B311C5300B76E48 /* Apple_Swift_TutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Apple_Swift_TutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44B5E3D2B311C5300B76E48 /* Apple_Swift_TutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_Swift_TutorialUITests.swift; sourceTree = "<group>"; };
 		F44B5E3F2B311C5300B76E48 /* Apple_Swift_TutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_Swift_TutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F47E75422B32D46400B35EFC /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		F47E75442B33B0F400B35EFC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				F44B5E212B311C5100B76E48 /* Apple_Swift_TutorialApp.swift */,
 				F44B5E232B311C5100B76E48 /* ContentView.swift */,
 				F44B5E252B311C5200B76E48 /* Assets.xcassets */,
+				F47E75442B33B0F400B35EFC /* MapView.swift */,
+				F47E75422B32D46400B35EFC /* CircleImage.swift */,
 				F44B5E272B311C5200B76E48 /* Apple_Swift_Tutorial.entitlements */,
 				F44B5E282B311C5200B76E48 /* Preview Content */,
 			);
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F44B5E242B311C5100B76E48 /* ContentView.swift in Sources */,
+				F47E75452B33B0F400B35EFC /* MapView.swift in Sources */,
 				F44B5E222B311C5100B76E48 /* Apple_Swift_TutorialApp.swift in Sources */,
+				F47E75432B32D46400B35EFC /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
